@@ -1,0 +1,20 @@
+
+{
+    "region" : "ap-south-1",
+    "configuration" : "Debug",
+    "framework"     : "netcoreapp3.1",
+    "self-contained" : false,
+    "application"    : "OnlineFoodAPI",
+    "environment"    : "OnlineFoodAPI-dev",
+    "enable-xray"    : false,
+    "enhanced-health-type" : "basic",
+    "additional-options"   : "",
+    "solution-stack"       : "64bit Amazon Linux 2 v2.1.0 running .NET Core",
+    "environment-type"     : "SingleInstance",
+    "cname"                : "onlinefoodapi-V2",
+    "instance-type"        : "t2.micro",
+    "key-pair"             : "onlinefoodv2",
+    "instance-profile"     : "aws-elasticbeanstalk-OnlineFoodAPI-dev",
+    "service-role"         : "aws-elasticbeanstalk-service-role",
+    "proxy-server"         : "nginx"
+}
